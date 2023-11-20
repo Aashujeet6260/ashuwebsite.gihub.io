@@ -1,0 +1,128 @@
+body {
+    background-image: url(backgroud.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100px;
+}
+
+li.navitem img {
+    width: 68px;
+    height: 68px;
+    margin-right: 5px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+}
+
+li.navitem {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+li.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navitem a:hover {
+    background-color: white;
+    border-radius: 2px solid white;
+    border-radius: 5px;
+    color: black;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: white underline 2px;
+    text-underline-offset: 0.7em
+}
+
+.first{
+        color: white;
+}
+
+.name{
+    color: aqua;
+}
+
+.selfimage{
+    width: 35%;
+    /* height: 35%; */
+    float: right;
+    margin-right: 150px;
+}
+
+.description{
+    margin-top: 200px;
+    display: block;
+    margin-left: 120px;
+}
+
+.firstdis{
+    color: white;
+    width: 250px;
+    margin: 20px;
+    font-size: 35px;
+   
+}
+
+.seconddis{
+    width: 550px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactme{
+
+    color:  white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+
+.contactme:hover {
+    background-color: white;
+    color: black;
+    border-radius: 2px solid white;
+    border-radius: 5px;
+
+}
+
+#footer {
+    color: white;
+
+}
+
+.copyright {
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: right;
+}
