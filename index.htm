@@ -34,7 +34,7 @@
 
         <div>
             <p class="head1">WELCOME TO THE NEW WORLD</p>
-            <p class="head2">I am Aashujeet Rai</p>
+            <p class="head2">I am <span class="input"></span></p>
         </div>
 
 
@@ -139,6 +139,18 @@
 
     </section>
 
+    <script type="text/javaScript" src="js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".input", {
+            strings: ['Aashujeet Rai' , 'Spider', 'Front-End Developer', 'UX Designer', 'Photographer'],
+            typespeed: 70,
+            backspeed: 60,
+            loop: true
+
+        });
+    </script>
 
 </body>
 
